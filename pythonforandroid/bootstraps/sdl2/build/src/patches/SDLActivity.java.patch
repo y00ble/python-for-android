@@ -4,7 +4,7 @@
      // This is what SDL runs in. It invokes SDL_main(), eventually
      protected static Thread mSDLThread;
  
-+    public static int keyboardInputType = InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD;
++    public static int keyboardInputType = InputType.TYPE_CLASS_TEXT;
 +
      protected static SDLGenericMotionListener_API12 getMotionListener() {
          if (mMotionListener == null) {
